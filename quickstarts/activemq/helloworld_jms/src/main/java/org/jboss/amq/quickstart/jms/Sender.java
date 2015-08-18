@@ -30,8 +30,8 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 
 public class Sender {
-    private static final String USER = "guest";
-    private static final String PASSWORD = "guest";
+    private static final String USER = "admin";
+    private static final String PASSWORD = "admin";
     private static final int DEFAULT_COUNT = 10;
     private static final int DELIVERY_MODE = DeliveryMode.PERSISTENT;
 
