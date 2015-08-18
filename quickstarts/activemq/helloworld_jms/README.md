@@ -46,13 +46,15 @@ First produce some messages from the command line using the sender class:
  > java -cp "target/classes/:target/dependency/*" org.jboss.amq.quickstart.jms.Sender
 
 Peek at the broker to see the Enqueue count and Queue size:
- > \>activemq:dstat queues
+ > \> activemq:dstat queues
 
 Stop and restart A-MQ to experience message durability, the Sender uses
  the PERSISTENT JMS delivery mode for its messages so they survive a restart.
 
  > \> osgi:shutdown
+ 
  > ./bin/amq
+ 
  > \> activemq:dstat queues
 
 Receive the messages using the Receiver class:
