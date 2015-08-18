@@ -28,8 +28,8 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 
 public class Receiver {
-    private static final String USER = "guest";
-    private static final String PASSWORD = "guest";
+    private static final String USER = "admin";
+    private static final String PASSWORD = "admin";
     private static final int DEFAULT_COUNT = 10;
 
     public static void main(String[] args) throws Exception {
